@@ -1,83 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-06T23:42:14 CEST" name="Default suite" finished-at="2021-07-06T23:42:30 CEST" duration-ms="16141">
+  <suite started-at="2021-07-12T11:58:08 CEST" name="AdidasReviewTestSuite" finished-at="2021-07-12T11:59:11 CEST" duration-ms="63418">
     <groups>
     </groups>
-    <test started-at="2021-07-06T23:42:14 CEST" name="Default test" finished-at="2021-07-06T23:42:30 CEST" duration-ms="16141">
-      <class name="tests.BaseClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BaseClass@f736069]" started-at="2021-07-06T23:42:14 CEST" name="setup" finished-at="2021-07-06T23:42:30 CEST" duration-ms="15995" status="PASS">
+    <test started-at="2021-07-12T11:58:08 CEST" name="Test" finished-at="2021-07-12T11:59:11 CEST" duration-ms="63418">
+      <class name="review.TC3_VerifyReviewSubmission">
+        <test-method signature="VerifyReviewSubmission()[pri:0, instance:review.TC3_VerifyReviewSubmission@73700b80]" started-at="2021-07-12T11:58:22 CEST" name="VerifyReviewSubmission" finished-at="2021-07-12T11:59:07 CEST" duration-ms="44458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyReviewSubmission -->
+      </class> <!-- review.TC3_VerifyReviewSubmission -->
+      <class name="review.TC1_VerifyProductDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:review.TC1_VerifyProductDetails@1e683a3e]" started-at="2021-07-12T11:58:08 CEST" name="setup" finished-at="2021-07-12T11:58:14 CEST" duration-ms="5978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test()[pri:0, instance:tests.BaseClass@f736069]" started-at="2021-07-06T23:42:30 CEST" name="Test" finished-at="2021-07-06T23:42:30 CEST" duration-ms="12" status="PASS">
+        <test-method signature="VerifyProductDetails()[pri:0, instance:review.TC1_VerifyProductDetails@1e683a3e]" started-at="2021-07-12T11:58:14 CEST" name="VerifyProductDetails" finished-at="2021-07-12T11:58:17 CEST" duration-ms="2826" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.BaseClass@f736069]" started-at="2021-07-06T23:42:30 CEST" name="teardown" finished-at="2021-07-06T23:42:30 CEST" duration-ms="49" status="FAIL">
-          <exception class="org.openqa.selenium.UnsupportedCommandException">
-            <message>
-              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KORAG-SUSHANT', ip: '192.168.178.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.example.challenge.MainA..., appPackage: com.example.challenge, databaseEnabled: false, desired: {appActivity: com.example.challenge.MainA..., appPackage: com.example.challenge, deviceName: OnePlus 7T, newCommandTimeout: 60, platformName: android, platformVersion: 11, udid: 1c8defcf}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: HD1901, deviceName: 1c8defcf, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: 1c8defcf, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: 1c8defcf, viewportRect: {height: 2207, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 06854692-c0e2-4a5d-8c40-89f0d7125603]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KORAG-SUSHANT', ip: '192.168.178.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: io.appium.java_client.AppiumDriver
-Capabilities {appActivity: com.example.challenge.MainA..., appPackage: com.example.challenge, databaseEnabled: false, desired: {appActivity: com.example.challenge.MainA..., appPackage: com.example.challenge, deviceName: OnePlus 7T, newCommandTimeout: 60, platformName: android, platformVersion: 11, udid: 1c8defcf}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: HD1901, deviceName: 1c8defcf, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: 1c8defcf, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.8125, platform: LINUX, platformName: ANDROID, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: 1c8defcf, viewportRect: {height: 2207, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 06854692-c0e2-4a5d-8c40-89f0d7125603
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at tests.BaseClass.teardown(BaseClass.java:51)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+        </test-method> <!-- VerifyProductDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:review.TC1_VerifyProductDetails@1e683a3e]" started-at="2021-07-12T11:59:07 CEST" name="teardown" finished-at="2021-07-12T11:59:11 CEST" duration-ms="4201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- tests.BaseClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- review.TC1_VerifyProductDetails -->
+      <class name="review.TC2_AddReview">
+        <test-method signature="AddReview()[pri:0, instance:review.TC2_AddReview@6f46426d]" started-at="2021-07-12T11:58:17 CEST" name="AddReview" finished-at="2021-07-12T11:58:22 CEST" duration-ms="5931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddReview -->
+      </class> <!-- review.TC2_AddReview -->
+    </test> <!-- Test -->
+  </suite> <!-- AdidasReviewTestSuite -->
 </testng-results>
